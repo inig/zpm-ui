@@ -2381,7 +2381,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 
 var API = (0, _extends3.default)({
-  version: '3.0.0',
+  version: '0.0.1',
   locale: _index4.default.use,
   i18n: _index4.default.i18n,
   install: install
