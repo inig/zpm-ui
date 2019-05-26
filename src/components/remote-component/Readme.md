@@ -21,9 +21,13 @@
   </template>
 
   <script>
+    import RemoteComponent from './index.js'
     module.exports = {
       data: function () {
         return { name: 'Vue' }
+      },
+      components: {
+        'remote-component': RemoteComponent
       }
     }
   </script>
