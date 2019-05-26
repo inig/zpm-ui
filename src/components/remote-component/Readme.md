@@ -3,9 +3,6 @@
 该组件用于从指定url异步加载远端组件
 
 作者：liang.shan@zhaopin.com.cn
-# Demo
-
-正常写 markdown 的内容，如果要写 Vue 组件 Demo 只需要这样做
 
 <vuep template="#demo1"></vuep>
 
