@@ -4,36 +4,6 @@
 
 作者：liang.shan@zhaopin.com.cn
 
-<vuep template="#example"></vuep>
-
-<script v-pre type="text/x-template" id="example">
-  <template>
-    <div>Hello, {{ name }}!</div>
-    <remote-component
-        url="https://static.dei2.com/experience/Greeting.vue">
-      <div slot="loading"
-           style="width: 24px; height: 24px;">
-        <img src="https://static.dei2.com/experience/loading.gif"
-             alt="loading"
-             style="width: 24px; height: 24px;">
-      </div>
-    </remote-component>
-  </template>
-
-  <script>
-    import RemoteComponent from './index.js'
-    module.exports = {
-      data: function () {
-        return { name: 'Vue' }
-      },
-      components: {
-        'remote-component': RemoteComponent
-      }
-    }
-  </script>
-</script>
-
-
 ## 使用方法
 ```html
 <template>
