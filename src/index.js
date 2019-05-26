@@ -1,4 +1,4 @@
-import RemoteComponent from './components/RemoteCom/index';
+import RemoteComponent from './components/remote-component/index';
 import Message from './components/message';
 import locale from './locale/index';
 
