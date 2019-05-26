@@ -36,8 +36,7 @@ export default {
 </script>
 ```
 
-## api  
-### props    
+## props 属性
 <table>
     <tr>
         <th>属性</th>
@@ -73,7 +72,7 @@ export default {
     </tr>
 </table>
 
-### events
+## events 事件
 <table>
     <tr>
         <th>事件名</th>
@@ -106,7 +105,7 @@ export default {
     </tr>
 </table>
 
-### slot
+## slot 插槽
 <table>
     <tr>
         <th>名称</th>
