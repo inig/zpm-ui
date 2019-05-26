@@ -19,7 +19,7 @@
 <template>
   <div class="main">
     <h2> Hello <span class="text">{{ name }}</span>!</h2>
-    <h2>Features</h2>
+    <h2>Features 2</h2>
   </div>
 </template>
 
