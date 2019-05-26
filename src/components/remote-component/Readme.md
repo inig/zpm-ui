@@ -4,39 +4,16 @@
 
 作者：liang.shan@zhaopin.com.cn
 
-<vuep template="#demo1"></vuep>
-
-<script type="text/x-template" id="demo1">
-<style>
-  .main {
-    color: #2c3e50;
-  }
-  .text {
-    color: #4fc08d;
-  }
-</style>
-
 <template>
-  <div class="main">
-    <h2> Hello <span class="text">{{ name }}</span>!</h2>
-    <h2>Features 2</h2>
-  </div>
+  <div>Hello, {{ name }}!</div>
 </template>
 
 <script>
-  export default {
-    data () {
-      return {
-        name: 'Vuep',
-        features: [
-          'Vue component spec',
-          'Scoped style',
-          'UMD and CommonJS build'
-        ]
-      }
+  module.exports = {
+    data: function () {
+      return { name: 'Vue' }
     }
   }
-</script>
 </script>
 
 
