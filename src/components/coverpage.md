@@ -4,6 +4,6 @@
 
 
 [GitHub](https://github.com/lsliangshan/zpm-ui)
-[快速开始](zh-cn/quickstart)
+[快速开始](#zpm-ui)
 
 <!-- ![color](#f0f0f0) -->
