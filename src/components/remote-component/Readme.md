@@ -6,7 +6,7 @@
 # Demo
 
 正常写 markdown 的内容，如果要写 Vue 组件 Demo 只需要这样做
-```markdown
+
 <vuep template="#demo1"></vuep>
 
 <script type="text/x-template" id="demo1">
@@ -44,7 +44,7 @@
   }
 </script>
 </script>
-```
+
 
 ## 使用方法
 ```html
