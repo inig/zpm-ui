@@ -9,6 +9,15 @@
 <script v-pre type="text/x-template" id="example">
   <template>
     <div>Hello, {{ name }}!</div>
+    <remote-component
+        url="https://static.dei2.com/experience/Greeting.vue">
+      <div slot="loading"
+           style="width: 24px; height: 24px;">
+        <img src="https://static.dei2.com/experience/loading.gif"
+             alt="loading"
+             style="width: 24px; height: 24px;">
+      </div>
+    </remote-component>
   </template>
 
   <script>
