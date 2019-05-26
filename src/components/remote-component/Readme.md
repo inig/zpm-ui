@@ -3,8 +3,13 @@
 该组件用于从指定url异步加载远端组件
 
 作者：liang.shan@zhaopin.com.cn
+# Demo
 
-```html
+正常写 markdown 的内容，如果要写 Vue 组件 Demo 只需要这样做
+```markdown
+<vuep template="#demo1"></vuep>
+
+<script type="text/x-template" id="demo1">
 <style>
   .main {
     color: #2c3e50;
@@ -25,19 +30,19 @@
 </template>
 
 <script>
-  module.exports = {
+  export default {
     data () {
       return {
-        name: 'Vuep2',
+        name: 'Vuep',
         features: [
-          'Single File Component',
-          'Babel for ES6/JSX/UMD/CommonJS',
+          'Vue component spec',
           'Scoped style',
-          'Customizable JavaScript scope'
+          'UMD and CommonJS build'
         ]
       }
     }
   }
+</script>
 </script>
 ```
 
