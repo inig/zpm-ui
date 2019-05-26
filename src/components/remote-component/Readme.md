@@ -20,9 +20,6 @@
   <div class="main">
     <h2> Hello <span class="text">{{ name }}</span>!</h2>
     <h2>Features</h2>
-    <ul>
-      <li v-for="(item, index) in features" :key="index">{{ item }}</li>
-    </ul>
   </div>
 </template>
 
