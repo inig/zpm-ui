@@ -46,7 +46,7 @@ export default {
       type: Object,
       default () {
         return {
-          url: 'http://127.0.0.1:3000/Zpm/cli/ajax',
+          url: 'https://talkapi.dei2.com/Zpm/cli/ajax',
           method: 'POST'
         }
       }
@@ -153,7 +153,7 @@ export default {
       } else {
         await axios({
           method: this.proxy.method || 'POST',
-          url: this.proxy.url || 'http://127.0.0.1:3000/Zpm/cli/ajax',
+          url: this.proxy.url || 'https://talkapi.dei2.com/Zpm/cli/ajax',
           data: qs.stringify(Object.assign({
             url: this.url,
             method: 'get'

@@ -22,9 +22,9 @@ export default {
 
 <style scoped>
 .container {
-  width: 400px;
-  height: 200px;
-  background-color: lightblue;
+  width: 600px;
+  height: 100px;
+  background-color: #fff;
   display: flex;
   flex-direction: row;
   align-items: center;
