@@ -28,7 +28,7 @@
   module.exports = {
     data () {
       return {
-        name: 'Vuep',
+        name: 'Vuep2',
         features: [
           'Single File Component',
           'Babel for ES6/JSX/UMD/CommonJS',
