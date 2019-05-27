@@ -3,7 +3,7 @@
 > zpm-ui组件库
 
 
-[GitHub](https://github.com/lsliangshan/zpm-ui)
+[GitHub](https://github.com/inig/zpm-ui)
 [快速开始](#zpm-ui)
 
 <!-- ![color](#f0f0f0) -->
