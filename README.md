@@ -2,6 +2,8 @@
 
 > Zpm-Ui组件库
 
+[文档](http://zpmui.dei2.com)
+
 ## Usage
 
 ``` bash
